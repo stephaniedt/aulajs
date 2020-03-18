@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EX001 - JS</title>
+    <style>
+        body {
+            color: ghostwhite;
+            background-color: #d17795;
+            font: 17pt normal;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Sem maldição.</p>
+
+
+    <script>
+        // var nome = window.prompt('Qual é o seu nome?')
+        // window.alert('É um prazer te conhecer, ' + nome + '!')
+
+        var n1 = Number(window.prompt('Digite um número: '))
+        var n2 = Number(window.prompt('Digite outro número: '))
+        var s = n1 + n2
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`) // se não tivesse a função Number(n) acima o resultado iria imprimir os números concatenados, não somados, pois o retorno do prompt é uma strin e não um número.
+    </script>
+</body>
+</html>
